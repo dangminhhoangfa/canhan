@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="trang web ca nhan">
+    <title>Food Today</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Nhà hàng Xin Chào.</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">Trang chủ </a>
+            <a href="#dishes">Món ăn</a>
+            <a href="#about">Giao Hàng</a>
+            <a href="#menu">Thực đơn</a>
+            <a href="#review">Bình luận</a>
+            <a href="#order">đặt hàng</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="swiper-container home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Món ăn đặc biệt của chúng tôi</span>
+                        <h3>Mì cay</h3>
+                        <p>Món ngon mỗi ngày</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="../RES/home-img-1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Món ăn đặc biệt của chúng tôi</span>
+                        <h3>Gà nướng</h3>
+                        <p>Món ngon mỗi ngày</p>
+                        <a href="#" class="btn">đặt hàng ngay bây giờ</a>
+                    </div>
+                    <div class="image">
+                        <img src="../RES/home-img-2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Món ăn đặc biệt của chúng tôi</span>
+                        <h3>Bánh pizza</h3>
+                        <p>Món ngon mỗi ngày</p>
+                        <a href="#" class="btn">đặt hàng ngay bây giờ</a>
+                    </div>
+                    <div class="image">
+                        <img src="../RES/home-img-3.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- dishes section starts  -->
+
+    <section class="dishes" id="dishes">
+
+        <h3 class="sub-heading"> Món ăn của chúng tôi </h3>
+        <h1 class="heading"> món ăn phổ biến </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="../RES/dish-1.png" alt="">
+                <h3>Bánh Hamburger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>35.000vnd</span>
+                <a href="#" class="btn">mua</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="../RES/dish-2.png" alt="">
+                <h3>Món Gà viên</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>30.000vnd</span>
+                <a href="#" class="btn">mua</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="../RES/dish-3.png" alt="">
+                <h3>Gà nướng</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>120vnd</span>
+                <a href="#" class="btn">mua</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="../RES/dish-4.png" alt="">
+                <h3>Bánh pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>139.000vnd</span>
+                <a href="#" class="btn">mua</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="../RES/dish-5.png" alt="">
+                <h3>Bánh Socola Tan Chảy </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>39.000vnd</span>
+                <a href="#" class="btn">mua</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="../RES/dish-6.png" alt="">
+                <h3>Gà rán</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>32.000vnd</span>
+                <a href="#" class="btn">mua</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- dishes section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h3 class="sub-heading"> Về chúng tôi </h3>
+        <h1 class="heading"> tại sao chọn chúng tôi? </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="../RES/about-img.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>món ăn ngon nhất đất nước</h3>
+                <p>Ghi chú cho đơn hàng: Trong yêu cầu đặt hàng, bạn có thể ghi chú cho nhà hàng yêu cầu họ giao món ăn nhanh chóng và giữ ấm.
+
+Chờ giao hàng gần thời gian ăn: Đặt đơn hàng gần thời gian bạn dự định ăn để đảm bảo món ăn được giao đến khi bạn còn đói và còn nóng.
+
+Kiểm tra nhiệt độ khi nhận hàng: Khi nhận được đơn hàng, hãy kiểm tra nhiệt độ của món ăn để đảm bảo rằng nó vẫn còn nóng và an toàn để ăn.</p>
+                <p>Lắng nghe và hiểu nhu cầu của khách hàng: Hãy chú ý đến yêu cầu cụ thể của khách hàng, như mong muốn món ăn nóng và ngon, hoặc các yêu cầu đặc biệt về thức ăn (như không gói cùng nhau các loại sốt, gia vị).
+
+                    Tối ưu quy trình giao hàng: Tổ chức quy trình giao hàng sao cho hiệu quả nhất có thể, giảm thiểu thời gian giao hàng và đảm bảo món ăn vẫn giữ được chất lượng.
+                    
+                    Phản hồi và cải thiện: Lắng nghe phản hồi từ khách hàng và sẵn lòng cải thiện dịch vụ dựa trên phản hồi đó. Điều này có thể bao gồm cải thiện quy trình giao hàng, chất lượng thức ăn, hoặc dịch vụ khách hàng.
+                    
+                    Tạo mối quan hệ với khách hàng: Tạo mối quan hệ mạnh mẽ với khách hàng thông qua việc cung cấp dịch vụ chăm sóc khách hàng tốt và tạo điều kiện để họ cảm thấy thoải mái gửi phản hồi và yêu cầu của mình.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>giao hàng miễn phí</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>thanh toán dễ dàng</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>Dịch vụ 24/7</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+
+        <h3 class="sub-heading"> Menu của chúng tôi </h3>
+        <h1 class="heading"> ĐẶC BIỆT HÔM NAY </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="../RES/menu-1.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Bánh pizza</h3>
+                    <p>Chất lượng và hương vị của món ăn là yếu tố quan trọng. Đảm bảo rằng món ăn của bạn luôn ngon và thơm phức sẽ giúp tạo ra ấn tượng tích cực với khách hàng.</p>
+                    <a href="#" class="btn">mua</a>
+                    <span class="price">139.000vnd</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="../RES/menu-2.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Bánh Hamburger</h3>
+                    <p>Chất lượng và hương vị của món ăn là yếu tố quan trọng. Đảm bảo rằng món ăn của bạn luôn ngon và thơm phức sẽ giúp tạo ra ấn tượng tích cực với khách hàng.</p>
+                    <a href="#" class="btn">mua</a>
+                    <span class="price">39.000vnd</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="../RES/menu-3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>bánh crepe</h3>
+                    <p>Chất lượng và hương vị của món ăn là yếu tố quan trọng. Đảm bảo rằng món ăn của bạn luôn ngon và thơm phức sẽ giúp tạo ra ấn tượng tích cực với khách hàng.</p>
+                    <a href="#" class="btn">mua</a>
+                    <span class="price">46.000vnd</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="../RES/menu-4.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>bánh kẹp</h3>
+                    <p>Chất lượng và hương vị của món ăn là yếu tố quan trọng. Đảm bảo rằng món ăn của bạn luôn ngon và thơm phức sẽ giúp tạo ra ấn tượng tích cực với khách hàng.</p>
+                    <a href="#" class="btn">mua</a>
+                    <span class="price">29.000vnd</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="../RES/dish-5.png" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Bánh Socola Tan Chảy</h3>
+                    <p>Chất lượng và hương vị của món ăn là yếu tố quan trọng. Đảm bảo rằng món ăn của bạn luôn ngon và thơm phức sẽ giúp tạo ra ấn tượng tích cực với khách hàng.</p>
+                    <a href="#" class="btn">mua</a>
+                    <span class="price">39.000vnd</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="../RES/menu-6.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Bánh Kem </h3>
+                    <p>Chất lượng và hương vị của món ăn là yếu tố quan trọng. Đảm bảo rằng món ăn của bạn luôn ngon và thơm phức sẽ giúp tạo ra ấn tượng tích cực với khách hàng.</p>
+                    <a href="#" class="btn">mua</a>
+                    <span class="price">41.000vnd</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="../RES/menu-7.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Nước ép trái cây</h3>
+                    <p>Chất lượng và hương vị của món ăn là yếu tố quan trọng. Đảm bảo rằng món ăn của bạn luôn ngon và thơm phức sẽ giúp tạo ra ấn tượng tích cực với khách hàng.</p>
+                    <a href="#" class="btn">mua</a>
+                    <span class="price">25.000vnd</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="../RES/menu-8.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Bánh kem trái cây</h3>
+                    <p>Chất lượng và hương vị của món ăn là yếu tố quan trọng. Đảm bảo rằng món ăn của bạn luôn ngon và thơm phức sẽ giúp tạo ra ấn tượng tích cực với khách hàng.</p>
+                    <a href="#" class="btn">mua</a>
+                    <span class="price">39.000vnd</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="../RES/menu-9.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Nước Ép Cam</h3>
+                    <p>Chất lượng và hương vị của món ăn là yếu tố quan trọng. Đảm bảo rằng món ăn của bạn luôn ngon và thơm phức sẽ giúp tạo ra ấn tượng tích cực với khách hàng.</p>
+                    <a href="#" class="btn">mua</a>
+                    <span class="price">29.000vnd</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- menu section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h3 class="sub-heading"> Đánh giá của khách hàng </h3>
+        <h1 class="heading"> Những gì họ nói </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="../RES/pic-1.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Huy</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Chất lượng của nguyên liệu sử dụng để làm thực phẩm và đồ uống có ảnh hưởng lớn đến hương vị và giá trị dinh dưỡng.
+                       Nguyên liệu tươi mới và chất lượng cao thường tạo ra sản phẩm tốt hơn.
+
+                    </p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="../RES/pic-2.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Dịu</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Chất lượng của nguyên liệu sử dụng để làm thực phẩm và đồ uống có ảnh hưởng lớn đến hương vị và giá trị dinh dưỡng.
+                       Nguyên liệu tươi mới và chất lượng cao thường tạo ra sản phẩm tốt hơn.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="../RES/pic-3.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Sim</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Chất lượng của nguyên liệu sử dụng để làm thực phẩm và đồ uống có ảnh hưởng lớn đến hương vị và giá trị dinh dưỡng.
+                        Nguyên liệu tươi mới và chất lượng cao thường tạo ra sản phẩm tốt hơn.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="../RES/pic-4.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Huệ</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Chất lượng của nguyên liệu sử dụng để làm thực phẩm và đồ uống có ảnh hưởng lớn đến hương vị và giá trị dinh dưỡng.
+                        Nguyên liệu tươi mới và chất lượng cao thường tạo ra sản phẩm tốt hơn.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- order section starts  -->
+
+    <section class="order" id="order">
+
+        <h3 class="sub-heading"> Đặt hàng ngay bây giờ </h3>
+        <h1 class="heading"> miễn phí và nhanh chóng </h1>
+
+        <form action="">
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Tên của bạn</span>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="input">
+                    <span>số dt của bạn</span>
+                    <input type="number" placeholder="">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Đơn hàng của bạn</span>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="input">
+                    <span>thực phẩm bổ sung</span>
+                    <input type="test" placeholder="">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Bao nhiêu</span>
+                    <input type="number" placeholder="">
+                </div>
+                <div class="input">
+                    <span>ngày và giờ</span>
+                    <input type="">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>địa chỉ của bạn</span>
+                    <textarea name="" placeholder="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>tin nhắn của bạn</span>
+                    <textarea name="" placeholder="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="order now" class="btn">
+
+        </form>
+
+    </section>
+
+    <!-- order section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">vietnam</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">Trang chủ</a>
+                <a href="#">Món ăn</a>
+                <a href="#">Giao Hàng</a>
+                <a href="#">Thực đơn</a>
+                <a href="#">Bình luận</a>
+                <a href="#">đặt hàng</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+84: 0332406589</a>
+                <a href="#">dangminhhoang657@gmail.com</a>
+                <a href="#">Khanh Hoa, VietNam - 84</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com">facebook</a>
+                <a href="https://www.twitter.com">twitter</a>
+                <a href="https://www.instagram.com">instagram</a>
+                <a href="https://www.linkedin.com">linkedin</a>
+            </div>
+
+        </div>
+
+        <div class="credit"> 2024 by <span>minh hoang</span> </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- loader part  -->
+    <div class="loader-container">
+        <img src="../RES/load.gif" alt="">
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="../JS/javascript.js"></script>
+
+</body>
+
+</html>
